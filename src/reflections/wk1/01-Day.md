@@ -1,7 +1,9 @@
 # Day One Reflection
 __11/30/2020__
 
-## What I learned in coding school is...
+## In your own words, why do we use Git?
 
-how to code
+## What are the enefits of having multiple branches?
+
+## What is the difference between Git and GitHub
 
