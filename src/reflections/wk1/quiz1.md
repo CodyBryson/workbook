@@ -14,7 +14,7 @@ mkdir is the command to make a directory. It is used to create a folder in the l
 
 **3.** What is the `\<html>\</html>` tag in a document?
 <!-- enter you answer in the space below -->
-```
+```the '\html>\</html>' tags in the document indicate the beginning and end of the html portion of a document. All of your html fits between these two tags.
 
 ```
 
@@ -44,7 +44,7 @@ The three components that make up a CSS rule are the selector, the property, and
 **7.** What property would you change if you wanted to make a font **Bold**?
 <!-- enter you answer in the space below -->
 ```
-font-weight would be the propery you would change if you wnted to make a font bold.
+font-weight would be the propery you would change if you wnted to make a font bold. You could also add the <b></b> tag to the text that you wish to bold.
 ```
 
 **8.** In what tag does the majority of your code belong?
@@ -64,7 +64,7 @@ font-weight would be the propery you would change if you wnted to make a font bo
 **10.** Define the display `:flex property:`
 <!-- enter you answer in the space below -->
 ```
-The flex property is used to allow an element on a page to take up only the amount of space it needs, rather than a block format.
+The flex property is used to allow an element on a page to take up only the amount of space it needs, rather than a block format. It also allows you to easily manipulate the content within its element.
 ```
 
 **11.** What `CSS` properties affect the size of a box model?
