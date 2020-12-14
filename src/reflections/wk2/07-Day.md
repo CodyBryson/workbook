@@ -1,5 +1,5 @@
 # Day Seven Reflection
-__12/09/2020__
+__12/08/2020__
 
 ## The tree ways to syntactically write a function and do they function differently.
 
@@ -10,4 +10,4 @@ A parameter are used to define a function. They reside within the function defin
 
 ## Higher order functions and what they look like.
 
-You can use Var declarations when you need to re-define and update the variable within the function. You can use the Let declaration when you need to update the variable, but not re-define it. And finally you can use the Const declaration when you neither need to re-define or update a variable and need a variable to remain the same throughout the function.
+Higher order functions are functions that take take in another function as a paramater or returns a function. Many functions are used as methods to be used in higher order functions.
