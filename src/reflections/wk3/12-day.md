@@ -3,11 +3,11 @@ __12/15/2020__
 
 ## What does encapsulation do?
 
-Scope defines where you can use a variable. Variables are either globally scoped, meaning they are declared at the top and affect all areas of the script outside of a function. Or they are locally scoped, where they exist within the function itself.
+Encapsulation bundles data and methods that act on that data restricted from outside the bundle. The only way to change the state of an object, which stories its state privately, you must call a method on that object. 
 ## What are the problems with closures and the underscore prefix?
 
-Hoisting is where variable delcarations are brought to the top of the function when running. So even if you declare the variable at the bottom of the function, it will be read first before the rest of the function.
+closures and th eunderscore prefix can cause breaking changes. As underscore prefixes are considered methods that are changed only internally, they do not consider changing or deleting them to be a breaking change. Additionally, new developers are not aware of the underscore prefix and use their properties anyway. They also are not cyber security safe, as they give hackers more attack surface to exploit.
 
 ## Creating private variables in an ES6 class and why you would do this.
 
-You can use Var declarations when you need to re-define and update the variable within the function. You can use the Let declaration when you need to update the variable, but not re-define it. And finally you can use the Const declaration when you neither need to re-define or update a variable and need a variable to remain the same throughout the function.
+Creating private variables in an ES6 class allows you to create a new variable equal to the new class and have access to all of its variables without having to create the variables again. In this way, you can use the code in multiple instances without having to rewrite it, and then variables still remain encapsulated within the class itself.

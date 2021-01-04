@@ -1,13 +1,13 @@
-# Day Eleven Reflection
-__12/14/2020__
+# Day Fourteen Reflection
+__12/17/2020__
 
-## How to solve problems using exports.
+## The issues that an Observer Pattern solves.
 
-Scope defines where you can use a variable. Variables are either globally scoped, meaning they are declared at the top and affect all areas of the script outside of a function. Or they are locally scoped, where they exist within the function itself.
-## What is the difference between export and export default?
+The Observer Pattern helps to solve the issue of updating the DOM in response to certain events. It allows you to create re-usable code that creates solutiosn for your specific needs that flows in a one-way stream. 
+## The three mechanisms of the Observer Pattern.
 
-Hoisting is where variable delcarations are brought to the top of the function when running. So even if you declare the variable at the bottom of the function, it will be read first before the rest of the function.
+The three mechanisms of the Observer Pattern are the subscribe method, the unsubscribe method, and the broadcast method. The subscribe method adds events to the pattern. The unsubscribe method removes evens from the pattern. The broadcast method calls events from the pattern. 
 
-## A reason to use the module system.
+## Managing and updating the DOM utilizing the Observer Pattern.
 
-You can use Var declarations when you need to re-define and update the variable within the function. You can use the Let declaration when you need to update the variable, but not re-define it. And finally you can use the Const declaration when you neither need to re-define or update a variable and need a variable to remain the same throughout the function.
+The Observer Pattern allows us to have a reactive way of updating the DOM based on user input. The subscribe method receives the user input and adds those events based on your code. If things are removed, the events are unsubscribed as they are no longer needed and finally broadcasted back to the user by updating the DOM. By using proxy objects, a instance of an object and the properties necessary is created and changed without affecting the initial object. 

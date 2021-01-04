@@ -3,11 +3,11 @@ __12/14/2020__
 
 ## How to solve problems using exports.
 
-Scope defines where you can use a variable. Variables are either globally scoped, meaning they are declared at the top and affect all areas of the script outside of a function. Or they are locally scoped, where they exist within the function itself.
+Exports solves the issue of multiple script tags in the html. Instead of linking several different js tags, therefore slowing your page down, you can export different sets of code to the main.js and use that script tag only. 
 ## What is the difference between export and export default?
 
-Hoisting is where variable delcarations are brought to the top of the function when running. So even if you declare the variable at the bottom of the function, it will be read first before the rest of the function.
+Export exports the code as is and must be imported as is. If you are assigning an alias to the data you are importing, you must export the code as default or else you will receive a syntax error.
 
 ## A reason to use the module system.
 
-You can use Var declarations when you need to re-define and update the variable within the function. You can use the Let declaration when you need to update the variable, but not re-define it. And finally you can use the Const declaration when you neither need to re-define or update a variable and need a variable to remain the same throughout the function.
+The module system has several benefits. One, it cuts down on multiple script tags in your html, therefore causing slow web pages. It also keeps some things hidden that you might not want others to be able to see. It is easier to debug your code as well.

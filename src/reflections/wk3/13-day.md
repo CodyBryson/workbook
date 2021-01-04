@@ -1,13 +1,13 @@
-# Day Eleven Reflection
-__12/14/2020__
+# Day Thirteen Reflection
+__12/16/2020__
 
-## How to solve problems using exports.
+## Two common operations that are set in the handler.
 
-Scope defines where you can use a variable. Variables are either globally scoped, meaning they are declared at the top and affect all areas of the script outside of a function. Or they are locally scoped, where they exist within the function itself.
-## What is the difference between export and export default?
+The get and the set operators are two operations that can be performed on an object. Get is an operation on the object that can get values of the key. The set operator operates on the object to set the value of an object.
+## Things to make sure you do with every Get to make sure the value does not become undefined.
 
-Hoisting is where variable delcarations are brought to the top of the function when running. So even if you declare the variable at the bottom of the function, it will be read first before the rest of the function.
+The get operatorer takes in two parameters, the object and the property being accessed. To make sure that every Get does not return a value that is undefined, you need to set a get trap. A trap is something that triggers whenever an object property is being accessed. 
 
-## A reason to use the module system.
+## The benefits of the proxy object.
 
-You can use Var declarations when you need to re-define and update the variable within the function. You can use the Let declaration when you need to update the variable, but not re-define it. And finally you can use the Const declaration when you neither need to re-define or update a variable and need a variable to remain the same throughout the function.
+A proxy object creates a copy of an object that can have unique handlers attached. With a proxy object, you can set custom traps in order to prevent the user from accessing the properties of the initial object. 
