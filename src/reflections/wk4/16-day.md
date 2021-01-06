@@ -3,14 +3,14 @@ __01/04/2021__
 
 ## Callback hell! What are the signs and how do you protect yourself from it?
 
-The Observer Pattern helps to solve the issue of updating the DOM in response to certain events. It allows you to create re-usable code that creates solutiosn for your specific needs that flows in a one-way stream. 
+Callback hell occurs when a single function tries to do too many things. The function becomes bloated and ends up being a mess to read. If at the end of the function you see several, )} or }, chances are you are teetering if not already in callback hell.
 ## What asychronous is and what callbacks do.
 
-The three mechanisms of the Observer Pattern are the subscribe method, the unsubscribe method, and the broadcast method. The subscribe method adds events to the pattern. The unsubscribe method removes evens from the pattern. The broadcast method calls events from the pattern. 
+Async is telling a function that it does not need to return its results right away. This prevents bottleneck and allows other functions to run while the async function works. Callbacks use async in order to perform a function at a later time.
 
 ## Three Ways to Prevent Callback Hell.
 
-The Observer Pattern allows us to have a reactive way of updating the DOM based on user input. The subscribe method receives the user input and adds those events based on your code. If things are removed, the events are unsubscribed as they are no longer needed and finally broadcasted back to the user by updating the DOM. By using proxy objects, a instance of an object and the properties necessary is created and changed without affecting the initial object. 
+Three ways to prevent callback hell are keeping your code shallow, using a module, and handling all of your errors. Shallow code improves readability, allowing others to follow your work without as much issue as many lines of code or a function. A module helps to break apart your code into a more readable platform. Handling all of your errors allows you to pinpoint things before they get lost in the shuffle. 
 
 ## Afternoon Project
 
