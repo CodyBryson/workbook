@@ -3,14 +3,14 @@ __01/06/2021__
 
 ## What are async and await used for?
 
-The Observer Pattern helps to solve the issue of updating the DOM in response to certain events. It allows you to create re-usable code that creates solutiosn for your specific needs that flows in a one-way stream. 
+Async and await are used as syntax for asychronous code. Async functions return a promise. Await will stop the code until the promise is either resolved or rejected. 
 ## How do you await a promise in a function?
 
-The three mechanisms of the Observer Pattern are the subscribe method, the unsubscribe method, and the broadcast method. The subscribe method adds events to the pattern. The unsubscribe method removes evens from the pattern. The broadcast method calls events from the pattern. 
+Awaiting a promise is a simple as putting await in front of the function. With await prepended to that function, the code will attempt to either resolve or reject the call.
 
 ## Why should you use async and await?
 
-The Observer Pattern allows us to have a reactive way of updating the DOM based on user input. The subscribe method receives the user input and adds those events based on your code. If things are removed, the events are unsubscribed as they are no longer needed and finally broadcasted back to the user by updating the DOM. By using proxy objects, a instance of an object and the properties necessary is created and changed without affecting the initial object. 
+Async and await have several benefits. They are much easier to read, keeping format simple for others to follow. You can chain several asyncs very easily while also keeping it easier to read than regular promises. Debugging promises is also easier with async and await. 
 
 ## Afternoon Project
 
