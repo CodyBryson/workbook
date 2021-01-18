@@ -1,17 +1,17 @@
-# Day Eighteen Reflection
-__01/07/2021__
+# Day Twenty-three Reflection
+__01/14/2021__
 
-## WWhat does REST stand for and what does it mean?
+## What is a virtual property?
 
-REST stands for Representational State Transfer. RESTful API transfers a representation of the state of the requested resource. 
-## What's the deal with Stateless?
+A virtual property is an object's property that exists virtually but is never added to the collection. They do not get persisted within the database.
+## When do you use a virtual property?
 
-Stateless means the server does no hold any information regarding the user who uses the API. It does not store any requests that the user may have submitted beforehand and treats each request as a brand new regardless if it is the same API user.
+You use a virtual property when you don't want a static property on a model, but want to be able to take in that information if provided. It also allows you to create an object using that model without putting in the virtual properties.
 
-## What should your URL look like when writing a RESTful Api?
+## How do you search using a virtual propertie's value.
 
-The URL must include all of the things the server needs to perform a request. It needs both a resource identifier and an endpoint.
+The get method is a built in method for retrieving a virtual property's value. You can also use a set method.
 
 ## Afternoon Project
 
-https://github.com/CodyBryson/music
+Hackaton-prep

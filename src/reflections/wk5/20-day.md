@@ -1,16 +1,16 @@
-# Day Eighteen Reflection
-__01/07/2021__
+# Day Twenty Reflection
+__01/11/2021__
 
-## WWhat does REST stand for and what does it mean?
+## What is the purpose of a Query String?
 
-REST stands for Representational State Transfer. RESTful API transfers a representation of the state of the requested resource. 
-## What's the deal with Stateless?
+A query string is an appendage to the end of a URL to pass information from the client to the server. It is used to add additional specificity to requests. I.e. getting objects with specific properties that exist within the query string. 
+## What's the format of a query parameter, how do you start it and how do you distunguish between one parameter and another?
 
-Stateless means the server does no hold any information regarding the user who uses the API. It does not store any requests that the user may have submitted beforehand and treats each request as a brand new regardless if it is the same API user.
+A query parameter begins at the end of a url and is denoted with a '?'. They are distinguished by key value pairs. You can chain multiple query parameters and can distinguish them with '&'.
 
-## What should your URL look like when writing a RESTful Api?
+## When Query parameters are helpful when writing a server.
 
-The URL must include all of the things the server needs to perform a request. It needs both a resource identifier and an endpoint.
+Query parameters are extremely helpful by giving the client the option of requesting data with specific parameters. Instead of the client having to sift through every object or array in that specific server model, they can set a query parameter to return only the data that meets the query.
 
 ## Afternoon Project
 

@@ -1,17 +1,17 @@
-# Day Eighteen Reflection
-__01/07/2021__
+# Day Twenty-two Reflection
+__01/13/2021__
 
-## WWhat does REST stand for and what does it mean?
+## What is a sub-document?
 
-REST stands for Representational State Transfer. RESTful API transfers a representation of the state of the requested resource. 
-## What's the deal with Stateless?
+Subdocuments are documents nested within other documents. A usual indicator is if a schema is nested within another schema.
+## When might you use a sub-document?
 
-Stateless means the server does no hold any information regarding the user who uses the API. It does not store any requests that the user may have submitted beforehand and treats each request as a brand new regardless if it is the same API user.
+You can use sub-documents when you want to append additional properties to a schema, or add object properties to an existing object. You can also nest a schema within another schema in order to better separate your data.
 
-## What should your URL look like when writing a RESTful Api?
+## How do you add a collection of sub-documents and how do you edit them?
 
-The URL must include all of the things the server needs to perform a request. It needs both a resource identifier and an endpoint.
+The easiest way to add a collection of sub-documents is to use a findone method to find a document. Use a get to retrieve the array. You then edit the array and save it back to the document. Just like any array, a push method can be used to add things to an existing array.
 
 ## Afternoon Project
 
-https://github.com/CodyBryson/music
+https://github.com/CodyBryson/da-planets
