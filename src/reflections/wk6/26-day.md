@@ -6,12 +6,12 @@ __01/19/2021__
 Props are ways for parents to pass data to a child. Props can be exported and imported in components. 
 ## How do you use props?
 
-
+You use props similar to how you pass variables into functions. You create a prop and then pass it into other functions throughout your client. They are originally setup in the template.
 
 ## Where can you use props and access them?
 
-If you try and code ENTIRELY with component based architecture, your code can be bloated. Components should be used when you NEED them, as a resource, not as your entire architecture. 
+The initial creation of a prop is usually inside a template. You can, however, use them outside of templates. They can be used in methods, in hooks, watchers and in computed methods as well. 
 
 ## Afternoon Project
 
-https://github.com/CodyBryson/gregslistserver
+https://github.com/CodyBryson/nasa
